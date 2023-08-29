@@ -5,8 +5,16 @@
 }
 
 html {
-  // This defines what 1rem is
+  // This  defines what 1rem is
   font-size: 62.5%;
+
+  @media (max-width: 600px) {
+    font-size: 50%;
+  }
+
+  @media (max-width: 900px) {
+    font-size: 50%;
+  }
 }
 
 body {
