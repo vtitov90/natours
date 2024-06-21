@@ -296,8 +296,9 @@ body {
         transform: scale(1.05) translateY(-0.5rem);
         box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
         z-index: 20; } }
-  .composition:hover .composition__photo:not(:hover) {
-    transform: scale(0.95); }
+  @media only screen and (min-width: 600px) {
+    .composition:hover .composition__photo:not(:hover) {
+      transform: scale(0.95); } }
 
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
@@ -860,7 +861,7 @@ body {
       height: 95vh; } }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (min-width: 125em), (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em) {
     .header {
-      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.8), rgba(255, 119, 48, 0.8)), url("../img/hero.jpg"); } }
+      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/hero.jpg"); } }
   @media only screen and (max-width: 37.5em) {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
